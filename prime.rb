@@ -9,8 +9,7 @@ def prime?(integer)
     array.each do |number|
      if integer % number == 0
        return false
-     else
-       return true
+       break
      end
     end
   end
